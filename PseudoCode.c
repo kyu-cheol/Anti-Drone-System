@@ -3,7 +3,8 @@ while (1) {
 		Drone_info_parsing_cplt = 0;
 
 		if (처음 인식하는 드론인가?) {
-			iff = unknown;			   // 피아식별 변수로 iff의 상태는 unknown, friend, foe 중 하나이다. 각각 미확인, 아군, 적기
+			// 피아식별 변수로 iff의 상태는 unknown, friend, foe 중 하나이다. 각각 미확인, 아군, 적기
+			iff = unknown;			   
 			드론에게 피아식별 패킷 전송( );     // 일정 시간동안 드론에게서 ack 응답이 없을 시 적기로 간주
 			Timeout timer set;
 		}
